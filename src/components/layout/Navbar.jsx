@@ -9,10 +9,10 @@ const Navbar = () => {
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <img className="w-20" src={master} alt="task-master" />
         <div className="space-x-2">
-          <Link to="/login" className="font-bold">
+          <Link to="/tasks" className="font-bold">
             TASKS
           </Link>
-          <Link to="/login" className="font-bold">
+          <Link to="/users" className="font-bold">
             USERS
           </Link>
         </div>
